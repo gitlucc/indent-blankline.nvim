@@ -125,7 +125,7 @@ M.setup = function(options)
 
     vim.g.indent_blankline_disable_warning_message =
         o(options.disable_warning_message, vim.g.indent_blankline_disable_warning_message, false)
-    vim.g.indent_blankline_char_priority = o(options.char_priority, vim.g.indent_blankline_char_priority, 1)
+    vim.g.indent_blankline_char_priority = o(options.char_priority, vim.g.indent_blankline_char_priority, 50)
     vim.g.indent_blankline_context_start_priority =
         o(options.context_start_priority, vim.g.indent_blankline_context_start_priority, 10000)
 
